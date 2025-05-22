@@ -1,5 +1,37 @@
-* {
+body {
     background-color: #050247;
+}
+
+.Text {
+  color: #ffffff;
+  padding: 0% 20%;
+  text-align: left;
+  max-width: 100%;
+  font-size: 200%;
+}
+
+.Titel {
+  background-color: #04A083;
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  height: 10%;
+  font-size: 200%;
+  margin: 1% 0%;
+  border: 1px solid black;
+  border-radius: 50px;
+}
+
+.Untertitel {
+  background-color: #025235;
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  height: 10%;
+  font-size: 200%;
+  margin: 1% 0%;
+  border: 1px solid black;
+  border-radius: 50px;
 }
 
 .Linkbild {
@@ -8,3 +40,26 @@
     width: 20%;
     border-radius: 50%;
 }
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: #073DFF;
+  }
+  
+  nav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #073DFF;
+    font-size: 30px;
+  }
+  
+  nav a:hover:not(.active) {
+    background-color: #111;
+  }
